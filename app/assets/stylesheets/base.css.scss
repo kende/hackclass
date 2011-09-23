@@ -1,0 +1,64 @@
+@import url("http://fonts.googleapis.com/css?family=Anonymous+Pro:400,400italic,700,700italic");
+
+/* typography */
+
+p, h1, h2 { 
+  color: white;
+  font-family: 'Anonymous Pro', monospace; 
+  font-weight: normal;
+}
+
+/* structure */
+
+body { 
+  position: relative; 
+  background: #0B486B; 
+  color: white; 
+  font-family: 'Anonymous Pro', monospace; 
+  font-weight: normal;
+  font-size: 14px;
+}
+
+  header { 
+    width: 960px; 
+    height: 60%; 
+    position: relative;
+    margin: 0 auto;
+    top: 0;  
+  }
+
+    header h1 {
+      position: absolute;
+      top: 250px;
+      right: 125px;
+    }
+    
+    header h2 {
+      position: absolute;
+      top: 300px;
+      right: 125px;
+    }
+
+  article {
+    width: 960px;
+    height: 40%;
+    position: relative;
+    top: 60%;
+    margin: 0 auto;  
+  }
+
+    article aside {
+  
+  }
+
+    article#content {
+  
+  }
+
+      article#content ul {
+      
+      }
+
+      article#content ul li {
+      
+      }
