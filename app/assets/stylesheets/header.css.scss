@@ -1,0 +1,22 @@
+body > header { 
+  width: 940px; 
+  height: 100px; 
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 200px;  
+  margin: 0 auto;
+  padding: 10px;
+}
+
+  body > header h1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  body > header h2 {
+    position: absolute;
+    top: 50px;
+    right: 0;
+  }

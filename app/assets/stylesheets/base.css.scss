@@ -12,53 +12,34 @@ p, h1, h2 {
 
 body { 
   position: relative; 
-  background: #0B486B; 
+  background: #3775d3 url(DotGrid2.png) repeat top center; 
   color: white; 
   font-family: 'Anonymous Pro', monospace; 
   font-weight: normal;
   font-size: 14px;
 }
 
-  header { 
-    width: 960px; 
-    height: 40%; 
-    position: relative;
-    margin: 0 auto;
-    top: 0;  
-  }
-
-    header h1 {
-      position: absolute;
-      top: 150px;
-      right: 125px;
-    }
-    
-    header h2 {
-      position: absolute;
-      top: 200px;
-      right: 125px;
-    }
-
-  article {
+  body > article {
     width: 960px;
-    height: 40%;
-    position: relative;
-    top: 60%;
-    margin: 0 auto;  
+    position: absolute;
+    top: 300px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;  
   }
 
-    article aside {
+    body > article aside {
   
-  }
+    }
 
-    article#content {
+    body > article#content {
   
-  }
+    }
 
-      article#content ul {
+      body > article#content > ul {
       
       }
 
-      article#content ul li {
+      body > article#content > ul > li {
       
       }
