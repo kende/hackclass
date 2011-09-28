@@ -1,0 +1,12 @@
+# #signup
+#  %form#subForm{:action => "http://inverse.createsend.com/t/r/s/fluhuh/", :method => "post"}
+#    %p Sign up for updates:
+#    %label{:for => "name"} Name:
+#    %br/
+#    %input#name{:name => "cm-name", :type => "text"}/
+#    %br/
+#    %label{:for => "fluhuh-fluhuh"} Email:
+#    %br/
+#    %input#fluhuh-fluhuh{:name => "cm-fluhuh-fluhuh", :type => "text"}/
+#    %br/
+#    %input{:type => "submit", :value => "Subscribe"}/
