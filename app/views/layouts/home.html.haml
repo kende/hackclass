@@ -7,13 +7,14 @@
     /[if lt IE 9]
       = javascript_include_tag 'html5'
   %body
-    %header
-      %h1 HackClass
-      %h2 hack the learning curve
-    = yield
-    = javascript_include_tag :defaults
+    %article
+      %header
+        %h1 HackClass
+        %h2 hack the learning curve
+      = yield
+    = javascript_include_tag '//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js', :defer => true, :async => true
     %script{:type => "text/javascript",
-            :src  => "assets/jquery.infieldlabel.min.js"}
+            :src  => "assets/jquery.infieldlabel.min.js"}        
     :javascript
       $(document).ready(function(){
         $("label").inFieldLabels();

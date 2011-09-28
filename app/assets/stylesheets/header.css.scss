@@ -1,22 +1,30 @@
-body > header { 
+body > article > header { 
   width: 940px; 
   height: 100px; 
   position: absolute;
   left: 0;
   right: 0;
-  top: 200px;  
+  top: 0;  
   margin: 0 auto;
   padding: 10px;
 }
 
-  body > header h1 {
+  body > article > header > h1 {
     position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
+    font-size: 170px;
+    font-family: Candal, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    line-height: 1.0em;
   }
   
-  body > header h2 {
+  body > article > header > h2 {
     position: absolute;
-    top: 50px;
-    right: 0;
+    top: 240px;
+    right: 10px;
+    font-family: Candal, Helvetica, Arial, sans-serif;
+    font-size: 42px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.8);
   }
